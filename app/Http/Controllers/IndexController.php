@@ -9,7 +9,7 @@ class IndexController extends Controller
 {
     public function index(){
     	$albums = Album::orderBy('dates', 'DESC')->paginate(6);
-    	return view('site.album', compact('albums', 'photo'));
+    	return view('site.album', compact('albums'));
     }
 
     public function getPhoto($id){
