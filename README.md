@@ -1,5 +1,8 @@
 # gallery
-Laravel 5, MySQL
+
+Для Back-end использовал Laravel 5, MySQL
+
+Для Front-end использовал Bootstrap и совсем немного Jquery
 
 git clone https://github.com/nurlan123321/gallery.git
 
@@ -25,7 +28,9 @@ git clone https://github.com/nurlan123321/gallery.git
 
 	DB_PASSWORD=PASSWORD (Укажите здесь если есть пароль)
 
- 
+Роутинг
+
+	routes/web.php
 
 Контроллеры находятся:
 
@@ -44,4 +49,4 @@ git clone https://github.com/nurlan123321/gallery.git
 
 Я не стал убирать регистрацию при входе в админку
 
-Для Front-end использовал Bootstrap и совсем немного Jquery
+
